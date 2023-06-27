@@ -37,7 +37,7 @@ namespace ConsoleApp18
         }
         else
         {
-            throw new ArgumentException("Argument must be a Money object");
+            throw new ArgumentException("арг об");
         }
     }
 
@@ -55,13 +55,13 @@ namespace ConsoleApp18
             }
             if (rubles < 0)
             {
-                throw new ArgumentOutOfRangeException("Result cannot be negative");
+                throw new ArgumentOutOfRangeException("не отрц");
             }
             return new Money(rubles, kopecks);
         }
         else
         {
-            throw new ArgumentException("Argument must be a Money object");
+            throw new ArgumentException("арг маней");
         }
     }
 
@@ -111,7 +111,7 @@ namespace ConsoleApp18
         }
         else
         {
-            throw new ArgumentException("Argument must be a Money object");
+            throw new ArgumentException("арг маней");
         }
     }
 
